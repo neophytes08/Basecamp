@@ -1,0 +1,676 @@
+body {
+	background-color: #F3F3F3;
+}
+
+.nav-bar{
+	display:block;
+}
+
+.log_in{
+ 
+ margin-top: 20px;
+}
+
+.logo{
+float: left;
+}
+
+.log_in a{
+	padding-right: 10px;
+	text-decoration: underline;
+}
+
+.log_in button{
+
+}
+
+.center_photo {
+ margin-left: 80px;
+
+}
+
+.center_photo img{
+	margin-top: 20px;
+}
+
+
+/*LOGIN*/
+
+
+.form-signin
+{
+    max-width: 205px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.account-wall {
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    padding: 40px 0 20px;
+    width: 350px;
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+
+ 
+
+/* sign up css*/
+
+.btn_signup{
+    font-size: 30px!important;
+    padding: 15px 10px 15px 10px !important;
+    margin-left: 18%; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+
+}
+
+
+.form-signup{
+    max-width: 250px;
+    padding: 25px;
+    margin: 0 auto;
+    background: #ECEDE5;
+    border-radius: 15px;
+}
+.form-signup .form-signup-heading, .form-signup .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signup .checkbox
+{
+    font-weight: normal;
+}
+.form-signup .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+   
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signup .form-control:focus
+{
+    z-index: 2;
+}
+.form-signup input[type="text"]
+{
+    margin-bottom: 10px;
+    width: 250px;
+}
+.form-signup input[type="password"]
+{
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.form-signup input[type="email"]
+{
+    margin-bottom: 10px;
+    width: 250px;
+}
+ 
+
+ /* PROJECT INFO CSS */
+
+ .projectinfo_container{
+    background: none repeat scroll 0 0 white !important;
+    min-height: 400px !important;
+    margin: 25px auto 0;
+    width: 955px !important;
+    -webkit-box-shadow: 2px 2px 5px 2px #8F8F8F;
+    box-shadow: 2px 2px 5px 2px #8F8F8F;
+ }
+
+ .nav-projectinfo{
+    margin-left: 149px !important;
+    margin-top: 20px !important;
+ }
+
+ .nav-projectinfo img{
+    width: 154px;
+    height: 50px;
+    margin-top: 4px;
+ }
+
+ .project-name{
+
+    float: left!important;
+ }
+
+.projectinfo_details{
+    padding-top: 20px !important;
+    padding-left: 25px !important;
+     width: 960px!important;
+ }
+
+ .projectinfo_details h3{
+    float: left;
+    
+ }
+
+ .details_link{
+    display: inline-block;
+    margin-right: 50px;
+    float: right;
+ }
+
+/*.hr_size{
+    width: 870px;
+    margin: 0px auto;
+    margin-top: -20px;
+}*/
+
+.details_nav > .notifs{
+   margin-bottom: -15px;
+    margin-left: 25px;
+    margin-top: 7px;
+    border: 1px #cdcdcd solid;
+    border-left-style: none;
+    width: 236px;
+    padding: 6 0 6 0;
+}
+
+.details_nav > .notifs a {
+    padding: 5px;
+
+}
+
+.details_nav > .add{
+    margin-bottom: -15px;
+    margin-left: 261px;
+    margin-top: -34px;
+    border: 1px #cdcdcd solid;
+    border-right-style: none;
+    width: 652px;
+    padding: 6 0 6 0;
+}
+
+
+.details_nav > .add span{
+    margin-left: 10px;
+}
+
+.details_nav a{
+    font-weight: bold;
+    color: #1C5C76;
+    text-decoration: underline;
+}
+
+ .details_link .invitepeople{
+    float: left;
+    padding-right: 10px;
+}
+
+.invitepeople span{
+    font-size: 11px;
+}
+
+ .projectinfo_updates{
+    padding-top: 20px !important;
+    padding-left: 25px !important;
+ }
+
+ .projectinfo_updates a{
+    font-size: 17px !important;
+    color: #005580;
+ }
+
+.update{
+    margin: 5 5 10 15;
+}
+
+.update a{
+    text-decoration: underline;
+    color: #005580;
+}
+
+ .title{
+    font-size: 17px !important;
+    color: #9b0404;
+ }
+
+.seeallupdates{
+    margin: 5 0 -5 -3;
+    text-decoration: underline;
+}
+
+ .projectinfo_discussions{
+    padding-top: 20px !important;
+    padding-left: 25px !important;
+   
+ }
+
+  .projectinfo_discussions p{
+    margin-top: 12px;  
+ }
+
+   .projectinfo_discussions a{
+     color: #005580;  
+ }
+
+ #date{
+    float: right;
+    margin-right: 136px;
+    margin-top: -1px;
+ }
+
+#datenum{
+    background: #A0C3FF;
+    margin-left: 10px;
+    padding: 5px;
+    -webkit-border-radius: 50%;
+    border-radius: 75%;
+     width: 100px;
+    height: 100px;
+
+}
+
+ .projectinfo_todo{
+    padding-top: 20px !important;
+    padding-left: 25px !important;
+    color: #D40029;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+ }
+
+ .a_design{
+    border:1px solid #DEDEDE;
+    color: black;
+    padding: 3px 8px  3px 8px;
+    border-radius: 5px;
+    font-size: 11px;
+ }
+
+ .img_design{
+    border-radius: 80px;
+    width: 30px;
+    margin-right: 5px;
+ }
+
+ .title_todo{
+    margin-top: 30px!important;
+    text-decoration: underline;
+ }
+
+.a_todo{
+    padding-top: 10px;
+    color: #005580;
+}
+.todoinfo{
+     margin: 5 5 10 15;
+
+}
+  
+
+ /*main_page*/
+.logo_main{
+    float: left;
+
+}
+
+.main_nav a{
+    margin-right: 10px;
+
+}
+
+ .main_nav{
+    float: left;
+    margin-top: 20px;
+    
+ }
+
+ .border_l{
+    border-left: 1px solid #EEEAE4 ;
+    padding-left: 5px;
+
+ }
+
+ .sign_out{
+    float: right;
+    margin-top: 21px;
+    margin-right: 170px;
+
+ }
+
+
+.sidebar{
+    position: relative;
+    float: left;
+}
+
+.nav-main{
+
+}
+
+ 
+.project_display{
+    background: #F5EFE6;
+    width: 220px;
+    height: 250px;
+    padding: 10px 0 0 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.project_thumbnail{
+    float: left;
+    margin: 0px auto;
+    margin-right: 50px;
+    margin-left: 70px;
+    margin-top: 50px;
+
+}
+
+.project_thumbnail1{
+    float: left;
+    margin: 0px auto;
+    width: 960px;
+    margin-top: 20px;
+    padding: 50px;
+
+}
+ 
+ /**** DISCUSSIONS ****/
+
+.discussions_list{
+     background: none repeat scroll 0 0 #ffffff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    left: 203px;
+    margin-left: 19px;
+    min-height: 340px;
+    position: absolute;
+    top: 184px;
+    width: 961px;
+}
+
+.discussion_title{
+    padding: 17px 19px;
+}
+
+.discussions_list p{
+    margin: -32px 28px;
+    font-size: 15px; 
+}
+
+.discussion_title > .a_design{
+    float: left;
+    margin-left: 120px;
+    margin-top: -35px;
+}
+
+/**** DISCUSSION DETAILS ****/
+
+.discussions-details{
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    left: 23px;
+    min-height: 303px;
+    position: absolute;
+    top: 65px;
+    width: 961px;
+}
+
+.disc-options{
+    float:right;
+    margin-top: -67px;;
+}
+
+.disc-options hr{
+     margin: 3px;
+     width: 144px;
+}
+
+.disc-info, .disc-msg, .disc-add{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.disc-info > .img_design{
+      margin-left: 21px;
+    margin-top: 13px;
+    width: 60px;  
+}
+
+.disc-msg > .img_design{
+    margin-left: 21px;
+    margin-top: 13px;
+    width: 60px;  
+}
+
+.disc-msg span{
+    float: right;
+    margin-right: 549px;
+    margin-top: 14px;
+    font-size: 12px;
+}
+
+.disc-add > .img_design{
+    margin-left: 21px;
+    margin-top: 13px;
+    width: 60px;  
+}
+
+/***** NEW - PROJECT STYLE *****/
+
+.new-project{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+    width: 600px!important;
+    min-height: 400px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.np{
+    border: none!important;
+    font-size:25px!important;
+    width: 600px;
+    height: 40px!important;
+    box-shadow: none!important;
+    margin-bottom: -20px!important;
+    color: black!important;
+}
+
+.in_one{
+    margin-top: -20px!important;
+     font-size: 20px!important;
+}
+
+.new_team{
+
+}
+
+.nt{
+    border: none!important;
+    height: 30px!important;
+    width: 500px!important;
+     box-shadow: none!important;
+     border-bottom: 1px solid #757575 !important;
+     border-radius: 0!important;
+}  
+
+/**** TO-DO ****/
+
+
+.todo{
+    background: none repeat scroll 0 0 #ffffff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    left: 203px;
+    margin-left: 19px;
+    min-height: 340px;
+    position: absolute;
+    top: 184px;
+    width: 961px;
+}
+
+.todo_title > .a_design{
+    float: left;
+    margin-left: 120px;
+    margin-top: -35px;
+}
+
+.todo_title{
+    padding: 17px 19px;
+}
+
+.todo p{
+    margin: -32px 28px;
+    font-size: 15px; 
+}
+
+.todo hr{
+    margin-top: -12px;
+}
+
+.todo-options{
+    float: right;
+    margin-right: 18px;
+    margin-top: -80px;
+}
+
+.addto-do{
+    margin: -32px 28px;
+    font-size: 15px; 
+}
+
+.addtodo > input[type="text"]{
+    margin-top: 10px;
+}
+
+
+.atd{
+    border: none!important;
+    box-shadow: none!important;
+    width: 100px;
+    height: 30px!important; 
+    font-size: 20px!important;
+    margin-bottom: 0px!important;
+}
+
+.atd_design{
+    border:1px solid #DEDEDE;
+    color: black;
+    padding: 3px 8px  3px 8px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+/**** TEXT  DOCU ****/
+
+.textdocu{
+    background: none repeat scroll 0 0 #ffffff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    left: 203px;
+    margin-left: 19px;
+    min-height: 340px;
+    position: absolute;
+    top: 184px;
+    width: 961px;
+}
+
+.textdocu-content{
+    background: url("yellowpad.jpg") no-repeat scroll 0 0 / 600px auto rgba(0, 0, 0, 0);
+    height: 500px;
+    margin-left: 37px;
+    margin-top: 36px;
+    padding: 17px 19px;
+    width: 648px;
+}
+
+.textdocu-options{
+    background: none repeat scroll 0 0 #e0f4fd;
+    float: right;
+    height: 190px;
+    margin-right: 34px;
+    margin-top: -534px;
+    padding: 20px;
+    width: 220px;
+}
+
+.td{
+    background: none!important;
+    border: none!important;
+    box-shadow: none!important;
+    height: 400px!important;
+    width: 550px!important;
+
+}
+
+.ntd{
+    background: none!important;
+    border: none!important;
+    box-shadow: none!important;
+    height: 40px!important;
+    margin-bottom: 0px!important;
+    font-size: 23px!important;
+}
+

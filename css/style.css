@@ -1,0 +1,249 @@
+div.login-box
+{
+	margin: 100px auto 0 auto;
+	box-shadow: 0px 0px 5px black;
+	width: 45%;
+}
+button.submit
+{
+	width: 120px;
+}
+input.input-text
+{
+	margin-top: 2px;
+}
+h1.project-bar
+{
+	border-bottom: 2px solid gray;
+}
+.box-container
+{
+	margin: 50px auto 0 auto;
+}
+.add-member
+{
+	width: 150%;
+}
+.side-row
+{
+	margin-left: 50%;
+	margin-top:-48%;
+	width: 150%;
+}
+.x-mark:hover
+{
+	box-shadow: 0px 0px 5px black;
+	border-radius: 50%;
+}
+.menu-nav
+{
+	margin-left: 200px;
+}
+.group-prof
+{
+	width: 205px;
+	margin-left:-18px;
+	margin-top: -20px;
+}
+.tab-section
+{
+	margin-top:5%;
+	margin-left:20%;
+}
+.pic-round
+{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+.pic-round-project
+{
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+}
+.resize
+{
+	padding-top: 10px!important;
+	height: auto;
+}
+.side-margin
+{
+	margin-left: 250px!important;
+}
+.color-white
+{
+	padding-bottom: 5px!important;
+	color: black!important;
+}
+.move-right
+{
+	margin-left: 10px!important;
+}
+.resize-input
+{
+	width: 150px!important;
+}
+.resize-panel
+{
+	width: 450px!important;
+}
+.move-little
+{
+	margin-left: 10px;
+}
+.move-side
+{
+	margin-left: 600px!important;
+}
+.resize-search
+{
+	width: 400px!important;
+}
+.move-input
+{
+	margin-left: -25px!important;
+}
+.edit-input
+{
+	width: 400px!important;
+}
+/*Location Indicator*/
+
+.location_indicator
+{
+    margin: 30px auto;
+    position: relative;
+    left: -9px;
+    
+}
+.location_indicator:before, .location_indicator:after
+{
+    position: absolute;
+    content: "";
+}
+.location_indicator:before
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 100% 100% 100% 0;
+    box-shadow: 0px 0px 0px 2px rgba(255,255,255,1);
+    -moz-animation: mapping 1s linear infinite;
+    -moz-transform: rotate(-46deg);
+}
+.location_indicator:after
+{
+    width: 30px;
+    height: 10px;
+    border-radius: 100%;
+    left: 44px;
+    background-color: rgba(255,255,255,0.2);
+    top: 24px;
+    z-index: -1;
+    
+}
+@-moz-keyframes mapping
+{
+    0%{top: 0;}
+    50%{top: -5px;}
+    100%{top: 0;}
+}
+.thumbnail img:hover
+{
+	transform: scale(1.2);
+}
+.thumbnail img
+{
+	transition: all 0.3s ease 0s;
+	width: 100%;
+}
+.navbar-fixed-top
+{
+	background: #f9f9f9!important;
+	box-shadow: 0px 0px 5px black
+}
+input.adjust
+{
+	margin-top: -50px;
+	margin-left: 60px;
+	width: 600px!important;
+	
+}
+.pic-square
+{
+	margin-top: -5px!important;
+	width: 50px;
+	height: 50px;
+	padding-bottom: 0px!important;
+	border-radius: 50%;
+	padding-bottom: 6px!important;
+}
+.resize-box
+{
+	margin-top: -17px!important;
+}
+p
+{
+	font-weight: bold;
+}
+.comment-box
+{
+	margin-top: -15px!important;
+	background: #F5F5F5!important;
+}
+.delete
+{
+	padding: 5px;
+}
+.options
+{
+	position: absolute;
+	margin-left: 80%;
+}
+.move-opt
+{
+	margin-left: 5px;
+}
+.delete-todo
+{
+	position: absolute;
+	margin-left: 90%;
+}
+.options-nav
+{
+	position: absolute;
+	margin-left: 80%!important;
+	margin-top: -20px!important;
+}
+.options-nav:hover
+{
+	background: none!important;
+}
+.options-nav-todo
+{
+	position: absolute;
+	margin-left: 85%!important;
+	margin-top: -20px!important;
+}
+.dropdown-edit
+{
+	margin-top: -10px!important;
+	margin-left: -30px!important;
+}
+.caret-edit:hover,.options-nav-todo:hover, .dropdown-edit:hover
+{
+	background: none!important;
+}
+.move-up-nav
+{
+	margin-left: 85%!important;
+}
+.navbar-fixed-top ul.move-side-nav li a:hover
+{
+	background: black!important;
+	text-shadow: 0px 0px 3px white;
+}
+.navbar-fixed-top ul.move-side-nav li a:active
+{
+	color: black!important;
+}
