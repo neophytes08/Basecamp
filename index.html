@@ -1,0 +1,179 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+<script type="text/javascript" src="jquery-2.1.1.js"></script>
+<script type="text/javascript" src="jquery.validate.min.js"></script>
+
+<title>Login</title>
+
+<script> 
+$(document).ready(function(){
+  $("#slidelogin").click(function(){
+    $("#slideform").slideToggle("slow");
+  });
+  $("#slidesignup").click(function(){
+    $("#signupform").slideToggle("slow");
+  });
+});
+</script>
+
+
+
+<script type="text/javascript">
+/**
+  * Basic jQuery Validation Form Demo Code
+  * Copyright Sam Deering 2012
+  * Licence: http://www.jquery4u.com/license/
+  */
+(function($,W,D)
+{
+    var JQUERY4U = {};
+
+    JQUERY4U.UTIL =
+    {
+        setupFormValidation: function()
+        {
+            //form validation rules
+            $("#login-form").validate({
+                rules: {
+                    username: "Username required",
+                    password:{
+                        required: true,
+                        minlength: 5
+                    }
+                },
+                messages: {
+                    username: "Please enter your username",
+                    password: "Please enter your password",
+                    
+                },
+                submitHandler: function(form) {
+                    alert("Valid Form");
+                    form.submit();
+                }
+            });
+
+            $("#registration-form").validate({
+                rules: {
+                    firstname: "required",
+                    lastname: "required",
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    password: {
+                        required: true,
+                        minlength: 5
+                    },
+                    agree: "required"
+                },
+                messages: {
+                    firstname: "Please enter your firstname",
+                    lastname: "Please enter your lastname",
+                    password: {
+                        required: "Please provide a password",
+                        minlength: "Your password must be at least 5 characters long"
+                    },
+                    email: "Please enter a valid email address",
+                    agree: "Please accept our policy"
+                },
+                submitHandler: function(form) {
+                    alert('valid form')
+                    form.submit();
+                }
+            });
+        }
+    }
+
+    //when the dom has loaded setup form validation rules
+    $(D).ready(function($) {
+        JQUERY4U.UTIL.setupFormValidation();
+    });
+
+})(jQuery, window, document);
+
+</script>
+
+</head>
+
+<body>
+<div id="page-wrap">
+
+<div id="content">
+
+
+<!-- HTML form for validation demo -->
+<form action="" method="post" id="registration-form" novalidate="novalidate">
+
+    <div id="slidelogin"><h3>Click for Log-in Form</h2></div>
+    <div id="slidesignup"><h3>Click for Sign-up Form</h2></div>
+    
+    <div id="signupform">
+        <div id="form-content">
+        <fieldset>
+
+            <div class="fieldgroup">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname">
+            </div>
+
+            <div class="fieldgroup">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname">
+            </div>
+
+            <div class="fieldgroup">
+                <label for="email">Email</label>
+                <input type="text" name="email">
+            </div>
+
+            <div class="fieldgroup">
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </div>
+
+            <div class="fieldgroup">
+                <p class="right">By clicking register you agree to our <a target="_blank" href="/policy">policy</a>.</p>
+                <input type="submit" value="Register" class="submit">
+            </div>
+
+        </fieldset>
+        </div>
+    </div>
+
+    <div id="slideform">
+        <div id="form-content">
+            <fieldset>
+
+                <div class="fieldgroup">
+                    <label for="firstname">Username</label>
+                    <input type="text" name="username">
+                </div>
+
+                <div class="fieldgroup">
+                    <label for="lastname">Password</label>
+                    <input type="password" name="password">
+                </div>
+
+            
+                <div class="fieldgroup">
+                    <input type="submit" value="Login" class="submit">
+                </div>
+
+            </fieldset>
+        </div>
+    </div>
+
+</form>
+<!-- END HTML form for validation -->
+
+</div>
+
+</div>
+
+</div> <!-- end page wrap -->
+
+</body>
+</html>
